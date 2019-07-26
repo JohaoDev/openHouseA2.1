@@ -1,0 +1,140 @@
+{
+	"games" : [
+		{
+		    "questions" : [
+		        {
+		            "question" : "What is the original name of the 'El Robo' chapel?",
+		            "content" : [
+		                "San Francisco",
+		                "Jerusalen",
+		                "El Robo",
+		                "Jesus del Gran Poder"
+		            ],
+		            "correct" : 1
+		        },
+		        {
+		            "question" : "When was the provisional chruch  of the Clarisas nuns stolen?",
+		            "content" : [
+		                "Wednesday, March 12th, 1790",
+		                "Monday, January 10th, 1900",
+		                "Wednesday, November 17th, 1649",
+		                "Wednesday, January 20th, 1649"
+		            ],
+		            "correct" : 3
+		        },
+		        {
+		            "question" : "How is the chapel considered, nowadays?",
+		            "content" : [
+		                "Cultural Heritage of Humanity",
+		                "The Rute of the 7 Churches",
+		                "Heritage of Ecuador",
+		                "The Monument of Quito"
+		            ],
+		            "correct" : 0
+				}
+		    ]
+		},
+		{
+		    "questions" : [
+		        {
+		            "question" : "What name is Garcia Moreno street called?",
+		            "content" : [
+		                "7 cruses street",
+		                "La Ronda street",
+		                "Yavirac street",
+		                "Guaragua street"
+		            ],
+		            "correct" : 0
+		        },
+		        {
+		            "question" : "How many churches does the Garcia Moreno street have?",
+		            "content" : [
+		                "Three",
+		                "Six",
+		                "Seven",
+		                "Nine"
+		            ],
+		            "correct" : 2
+		        },
+		        {
+		            "question" : "When was Carmen Bajo church built?",
+		            "content" : [
+		                "16th century",
+		                "20th century",
+		                "18th century",
+		                "15th century"
+		            ],
+		            "correct" : 0
+				}
+		    ]
+		},
+		{
+		    "questions" : [
+		        {
+		            "question" : "Why was the Catedral Church destroyed?",
+		            "content" : [
+		                "The Catedral Church was destroyed because of an eartquake",
+		                "The Catedral Church was destroyed to rebuild with stones bases",
+		                "The Catedral Church was destroyed by the Spanish people",
+		                "The Catedral Church was destroyed by people"
+		            ],
+		            "correct" : 1
+		        },
+		        {
+		            "question" : "Is the Catedral Church located in Quito center?",
+		            "content" : [
+		                "No, it is not",
+		                "I do not know",
+		                "Yes, it is",
+		                "It does not say"
+		            ],
+		            "correct" : 2
+		        },
+		        {
+		            "question" : "What design does the Catedral Church have in the ceiling?",
+		            "content" : [
+		                "Catedral has designs of 'Pan de Oro' in the ceiling",
+		                "Catedral has designs of 'Marmol' in the ceiling",
+		                "Catedral has designs of 'Wood' in the ceiling",
+		                "Catedral has designs of 'Metal' in the ceiling"
+		            ],
+		            "correct" : 0
+				}
+		    ]
+		},
+		{
+		    "questions" : [
+		        {
+		            "question" : "What styles does San Francisco church have?",
+		            "content" : [
+		                "Baroque",
+		                "Mudejar",
+		                "Beautiful",
+		                "A and B are correct"
+		            ],
+		            "correct" : 3
+		        },
+		        {
+		            "question" : "What did Cantuña hide?",
+		            "content" : [
+		                "A piece of paper",
+		                "One pound of sugar",
+		                "A stone",
+		                "The Hell"
+		            ],
+		            "correct" : 2
+		        },
+		        {
+		            "question" : "When did the first reconstruction of San Francisco church start?",
+		            "content" : [
+		                "in 1642",
+		                "in 1645",
+		                "in 1651",
+		                "in 1699"
+		            ],
+		            "correct" : 2
+				}
+		    ]
+		}
+	]
+}

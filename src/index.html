@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<!-- <link rel="manifest" href="/manifest.json"> -->
+		<link href="https://fonts.googleapis.com/css?family=Times+New+Roman" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		
+		<div class="flex-col-cc full-screen" id="pre-start">
+			<img class="logo__login" src="img/logo.png" />
+			<button class="button" id="start">START TO PLAY</button>
+		</div>
+
+		<div class="grid__game" id="game">
+			<div class="time time-box">
+				<img src="./img/time.png" alt="time">
+				<p id="time"></p>
+			</div>
+			<div class="options" id="options">
+				<div id="fifty" class="options-button" data-bind="click: fifty"></div>
+			</div>
+			<div class="logo-content"><img src="img/logo.png" id="logo" /></div>
+			<div class="levels" id="top">
+				<ul id="levels">
+					<li data-bind="css: {active: level() == 3}" data-amt="300" data-lvl="3">Question 3</li>
+					<li data-bind="css: {active: level() == 2}" data-amt="200" data-lvl="2">Question 2</li>
+					<li data-bind="css: {active: level() == 1}" data-amt="100" data-lvl="1">Question 1</li>
+				</ul>
+			</div>
+
+			<div class="question-box" id="question-box">
+				<span class="content" data-bind="text: getQuestionText()"></span>
+			</div>
+			<div class="answer-box grid__answer" id="answer-box">
+				<div id="answer-one" class="answer" data-bind="click: function() { answerQuestion(0, $element.id) }">
+					<span class="big-text">A.</span><span data-bind="text: getAnswerText(0)"></span>
+				</div>
+				<div id="answer-two" class="answer" data-bind="click: function() { answerQuestion(1, $element.id) }">
+					<span class="big-text">B.</span><span data-bind="text: getAnswerText(1)"></span>
+				</div>
+
+				<div id="answer-three" class="answer" data-bind="click: function() { answerQuestion(2, $element.id) }">
+					<span class="big-text">C.</span><span data-bind="text: getAnswerText(2)"></span>
+				</div>
+				<div id="answer-four" class="answer" data-bind="click: function() { answerQuestion(3, $element.id) }">
+					<span class="big-text">D.</span><span data-bind="text: getAnswerText(3)"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="game-win full-screen game-win__content" id="game-win">
+			<h1>¡WINNER!</h1>
+			<canvas class='fireworks'></canvas>
+			<video class="video-ganaste" autoplay loop width="100%">
+				<source src="video/ganaste.mp4" type="video/mp4">
+			</video>
+			<button class="button absolute-button" id="reload" onClick="window.location.reload()">PLAY AGAIN</button>
+		</div>
+		<div class="game-over full-screen game-win__content" id="game-over">
+			<h1>¡UPS! YOU LOSE</h1>
+			<h3>Thank you for participating</h3>
+			<video class="video-ganaste" autoplay loop width="100%">
+				<source src="video/perdiste.mp4" type="video/mp4">
+			</video>
+			<button class="button absolute-button" id="reload" onClick="window.location.reload()">PLAY AGAIN</button>
+		</div>
+
+		<audio id="background" src='sound/background.mp3'></audio>
+		<audio id="rightsound" src='sound/right.mp3'></audio>
+		<audio id="wrongsound" src='sound/wrong.mp3'></audio>
+		<audio id="victorysound" src='sound/victory.mp3'></audio>
+		
+		<!-- <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script> -->
+		<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="js/knockout-3.5.0.js"></script>
+		<script type="text/javascript" src="js/anime.min.js"></script>
+		<!-- <script type="text/javascript" src="js/registerServiceWorker.js"></script> -->
+		<script type="text/javascript" src="js/millionaire.js"></script>
+	</body>
+
+</html>
